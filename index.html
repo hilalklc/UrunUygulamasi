@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Ürün</title>
+</head>
+
+<body>
+    <nav class="navbar  bg-body-tertiary">
+        <div class="container-md">
+            <a class="navbar-brand">Navbar</a>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Aramak istediğiniz ürün ismi" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                </div>
+                <i class="bi bi-cart4"></i>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <label for="ürün" id="label">Yeni Ürün </label>
+    <form id="ürün-form" name="form">
+        <div class="form2">
+            <div class="form-group">
+                <input class="form-control" type="text" name="url" id="url" placeholder="Ürünün Fotoğraf Urlsini Giriniz ">
+            </div>
+            <div class="form-group ">
+                <input class="form-control" type="text" name="ürünisim" id="ürünisim" placeholder="Ürünün İsmini Giriniz ">
+            </div>
+            <button type="submit" id="btn-ürün"> Ürünü Ekleyiniz</button>
+
+        </div>
+
+    </form>
+
+
+
+
+    <label for="ürün" id="label">Ürünler</label>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="col">
+
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <script src="storage.js"></script>
+
+</body>
+
+</html>
