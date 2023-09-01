@@ -1,15 +1,5 @@
-.container {
-    border-style: double;
-    border-radius: 5%;
-    padding: 10% 10%;
-    margin-top: 8%;
-    margin-left: 35%;
-    margin-right: 35%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .form-group {
-    margin: 10% 0%;
+    margin: 3% 0%;
 }
 
 #btn {
@@ -60,13 +50,14 @@
     flex-direction: row;
 }
 
-
-/* #col {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
+.card-img-top {
+    height: 300px;
+}
 
 .img-ürün {
     width: 10%;
+}
+
+#icon {
+    background-color: white;
 }
